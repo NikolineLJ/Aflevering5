@@ -1,0 +1,242 @@
+<head>
+<title>Luksus Genbrugs Marketplace</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+                <h1>Vintage Luksus Genbrug</h1>
+            <ul class="nav-links">
+                <li><a href="#butikker">Butikker</a></li>
+                <li><a href="#etiske-parametre">Etiske Parametre</a></li>
+                <li><a href="#pris-rangering">Pris Rangering</a></li>
+                <li><a href="#Mere info">Mere info</a></li>
+ </ul>
+        </nav>
+    </header>
+  <main>
+        <section id="hero">
+            <h2>Bæredygtig Luksus Genbrug</h2>
+            <p>Find unikke, kvalitets genbrugstøj med etisk og grønt fokus</p>
+        </section>
+
+        <section id="butikker">
+            <h2>Udvalgte Luksus Genbrugsbutikker</h2>
+            <div class="butik-grid">
+                <div class="butik-card">
+                    <img src="/api/placeholder/300/200" alt="Butik 1">
+                    <h3>Vintage Paradise</h3>
+                    <div class="butik-detaljer">
+                        <p>Kvalitetsvurdering: ★★★★☆</p>
+                        <p>Mærkevarer: Ralph Lauren, Gucci</p>
+                        <a href="#" class="link-detaljer">Læs mere</a>
+                    </div>
+                </div>
+                <div class="butik-card">
+                    <img src="/api/placeholder/300/200" alt="Butik 2">
+                    <h3>Grøn Luksus</h3>
+                    <div class="butik-detaljer">
+                        <p>Kvalitetsvurdering: ★★★★★</p>
+                        <p>Etisk Score: 9/10</p>
+                        <a href="#" class="link-detaljer">Læs mere</a>
+                    </div>
+                </div>
+                <!-- Flere butikker kan tilføjes -->
+            </div>
+        </section>
+
+        <section id="etiske-parametre">
+            <h2>Etiske Vurderinger</h2>
+            <div class="etiske-kriterier">
+                <div class="etisk-kategori">
+                    <h3>Materialer</h3>
+                    <ul>
+                        <li>Genanvendte materialer</li>
+                        <li>Økologisk produktion</li>
+                        <li>Minimal miljøpåvirkning</li>
+                    </ul>
+                </div>
+                <div class="etisk-kategori">
+                    <h3>Produktionsforhold</h3>
+                    <ul>
+                        <li>Fair løn</li>
+                        <li>Gode arbejdsforhold</li>
+                        <li>Ingen børnearbejde</li>
+                    </ul>
+                </div>
+                <div class="etisk-kategori">
+                    <h3>Sociale Initiativer</h3>
+                    <ul>
+                        <li>Tøjdonationer</li>
+                        <li>CO2 kompensation</li>
+                        <li>Lokale fællesskabsprojekter</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="pris-rangering">
+            <h2>Pris Rangering</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Butik</th>
+                        <th>Prisniveau</th>
+                        <th>Gennemsnitlig Pris</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vintage Paradise</td>
+                        <td>$$</td>
+                        <td>350-750 kr.</td>
+                    </tr>
+                    <tr>
+                        <td>Grøn Luksus</td>
+                        <td>$$$</td>
+                        <td>500-1200 kr.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="om-os">
+            <h2>Vores Mission</h2>
+            <p>Vi forbinder bæredygtige forbrugere med luksus genbrugstøj. Vores platform sikrer høj kvalitet, etisk produktion og unikke fund.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="some-links">
+            <a href="#" class="instagram-link">Instagram</a>
+            <a href="#" class="tiktok-link">TikTok</a>
+            <a href="#" class="pinterest-link">Pinterest</a>
+        </div>
+        <p>&copy; 2024 Luksus Genbrugs Marketplace</p>
+    </footer>
+</body>
+</html>
+
+
+<style>
+:root {
+    /* Naturlige farver baseret på dokumentets beskrivelse */
+    --primary-color: #4a6741;  /* Grøn nuance */
+    --secondary-color: #8b6f4b;  /* Varm jordfarve */
+    --text-color: #2c2c2c;
+    --background-color: #f4f4f0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sektioner */
+section {
+    padding: 2rem 5%;
+    margin: 1rem 0;
+}
+
+.butik-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.butik-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.butik-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Etiske parametre */
+.etiske-kriterier {
+    display: flex;
+    justify-content: space-between;
+}
+
+.etisk-kategori {
+    flex: 1;
+    margin: 0 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Pris rangering */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.some-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+</style>
+
+
